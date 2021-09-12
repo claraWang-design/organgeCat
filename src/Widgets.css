@@ -1,0 +1,7 @@
+.widgets {
+    flex: 0.3;
+}
+
+.widgets__header{
+    padding: 20px;
+}

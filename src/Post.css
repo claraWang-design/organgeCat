@@ -1,0 +1,25 @@
+.post {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 10px;
+}
+
+.post__body > img {
+    border-radius: 20px;
+    width: 300px;
+}
+
+.post__body {
+    flex: 1;
+    padding-top: 27.5px;
+    margin-right: 60px;
+}
+
+.post__avatar {
+    padding: 20px;
+}
+
+.post__headerDescription {
+    padding: 10px 0;
+}

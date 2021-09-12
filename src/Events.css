@@ -1,0 +1,28 @@
+.events {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    cursor: pointer;
+    min-width: 100px;
+    padding-right: 20px;
+}
+.events:hover{
+    background-color: var(--background);
+}
+
+.events__image {
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    margin: 20px;
+    margin-left: 40px;
+}
+
+.events__body {
+    align-items: center;
+    width: 240px;
+}
+
+.events__text {
+    margin-top: 4px;
+}
